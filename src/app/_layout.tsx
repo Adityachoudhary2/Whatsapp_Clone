@@ -1,8 +1,6 @@
 import { Stack } from 'expo-router'
-import { Text, View } from 'react-native'
 
-
-const RootNavigation = () => {
+const RootNavigation: React.FC = () => {
     return (
 
         <Stack>

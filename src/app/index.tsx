@@ -1,11 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
-import { Stack } from 'expo-router'
+import { Image, StyleSheet, Text, View } from 'react-native'
+import imagePath from '../constants/imagePath'
 
-const Home = () => {
+
+const Home: React.FC = () => {
   return (
     <View>
       <Text>Home</Text>
+      <Image source={imagePath.react_logo}/>
     </View>
   )
 }
