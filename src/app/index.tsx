@@ -6,7 +6,7 @@ const Home: React.FC = () => {
   return (
     <View>
       <Text>Home</Text>
-      <Image source={imagePath.react_logo}/>
+      
     </View>
   )
 }
