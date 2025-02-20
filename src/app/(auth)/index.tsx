@@ -18,6 +18,12 @@ const Auth: React.FC = () => {
       router.push('/(auth)/terms_agree')
     }, 3000);
 
+   return()=>{
+    clearTimeout(loadingTimeout);
+    clearTimeout(navigationTimeout);
+
+   }
+
   }, [])
 
 
